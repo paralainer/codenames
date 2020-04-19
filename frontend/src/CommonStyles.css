@@ -1,0 +1,77 @@
+.wordCard.red {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+.wordCard.black {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.wordCard.blue {
+    background-color: rgba(0, 0, 255, 0.5);
+}
+
+.wordCard.neutral {
+    background-color: rgba(255, 228, 196, 0.5);
+}
+
+.gameField {
+    display: grid;
+    width: 100vw;
+    max-height: calc(85vh);
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.wordCard {
+    display: flex;
+    padding: 1vw;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 3.5vw;
+    margin: 1vw;
+    box-shadow: rgba(128, 128, 128, 0.50) 0.1vw 0.1vw 0.5vw;
+    border-radius: 1vw;
+    cursor: pointer;
+}
+
+.footer {
+    padding-left: 2vw;
+    display: flex;
+    font-size: 2vw;
+    flex-direction: row;
+}
+
+.footer * {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .score {
+    padding: 1vw 2vw;
+    margin: 2vw;
+}
+.footer .score.blue {
+    background-color: rgba(0, 0, 255, 0.50);
+}
+.footer .score.red {
+    background-color: rgba(255, 0, 0, 0.50);
+}
+
+.newgame {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.newgame button {
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 48px;
+    cursor: pointer;
+    box-shadow: rgba(128, 128, 128, 0.55) 1px 1px 5px;
+
+}

@@ -1,0 +1,17 @@
+.wordCard.open {
+    cursor: default;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.wordCard.red.open {
+    background-color: rgba(255, 0, 0, 0.1);
+}
+.wordCard.black.open {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.wordCard.blue.open {
+    background-color: rgba(0, 0, 255, 0.1);
+}
+.wordCard.neutral.open {
+    background-color: rgba(255, 228, 196, 0.1);
+}

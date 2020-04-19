@@ -1,0 +1,11 @@
+POST http://localhost:8080/api/game/word/open
+Content-Type: application/json
+
+{
+  "gameId": "30adf444-c019-4d2a-908e-17ac318f7442",
+  "adminId": "bb2cd7be-a9d9-4297-a641-ed5cfe980c26",
+  "row": 1,
+  "column": 2
+}
+
+###

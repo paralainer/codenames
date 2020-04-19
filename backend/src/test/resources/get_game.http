@@ -1,0 +1,6 @@
+GET http://localhost:8080/api/game/30adf444-c019-4d2a-908e-17ac318f7442/a/bb2cd7be-a9d9-4297-a641-ed5cfe980c26
+Accept: application/json
+
+###
+GET http://localhost:8080/api/game/30adf444-c019-4d2a-908e-17ac318f7442
+Accept: application/json

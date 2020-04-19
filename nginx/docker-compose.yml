@@ -1,0 +1,31 @@
+backend:
+  build: ../backend
+
+frontend:
+  build: ../frontend
+
+
+#  nginx:
+#    image: umputun/nginx-le:latest
+#    hostname: nginx
+#    restart: always
+#    container_name: nginx
+#
+#    logging:
+#      driver: json-file
+#      options:
+#        max-size: "10m"
+#        max-file: "5"
+#
+#    volumes:
+#      - ./etc/ssl:/etc/nginx/ssl
+#      - ./etc/service-example.conf:/etc/nginx/service.conf
+#    ports:
+#      - "80:80"
+#      - "443:443"
+#
+#    environment:
+#      - TZ=UTC
+#      - LETSENCRYPT=true
+#      - LE_EMAIL=serg.talov@gmail.com
+#      - LE_FQDN=www.example.com
